@@ -1,0 +1,20 @@
+[project]
+name = "uv-with-chainlit"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Aqeel Shahzad", email = "lru159@usask.ca" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "chainlit>=2.6.0",
+]
+
+[project.scripts]
+start = "uv_with_chainlit:main"
+
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
